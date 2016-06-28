@@ -1,0 +1,20 @@
+@import 'normalize';
+html, body {
+	font-family: 'Times', sans-serif;
+}
+	ul {
+		list-style: none;
+	
+		padding-right: 3em;
+    		.category {
+    			font-weight: 500;
+    			font-size: 0.7em;
+    			text-transform: uppercase;
+    			color: #00ff99;
+		}
+		li {
+			padding: .5em 0;
+		}
+	}
+
+

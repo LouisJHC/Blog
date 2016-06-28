@@ -7,6 +7,22 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <div id="bar">
+    <div id="logo">
+      <%= link_to root_path do %>
+        <%= image_tag "SFU logo.jpg" %>
+      <% end %>
+    </div>
+    <ul>
+    <li><a href="https://github.com/LouisJHC/">GitHub</a></li>
+
+    </ul>
+    <ul>
+        <li class ="category">Louis's Website</li>
+        <li><%= link_to "Blog", root_path %></li>
+    
+   </ul>
+  </div>
 
 <%= yield %>
 
